@@ -43,7 +43,7 @@ setInterval(datesCall,1000)
 
 // --------------------- months decoration
 function monthsCall () {
-    const _months = new Date().getMonth()+1;
+    const _months = new Date().getMonth();
     const _weeks = new Date().getUTCDay()-1;
     months[_months].classList.add('curr_months');   
     weekdays[_weeks].classList.add('curr_months')
