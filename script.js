@@ -34,7 +34,7 @@ setInterval(dots,1000)
 function datesCall () {
     let _days = new Date().getDate();
 days.innerHTML = _days < 10 ? '0'+ _days : _days;
-let _mts = new Date().getMonth()+1;
+let _mts = new Date().getMonth();
 mts.innerHTML = _mts < 10 ? '0'+ _mts : _mts;
 years.innerHTML = new Date().getFullYear();
 }
